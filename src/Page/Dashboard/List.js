@@ -7,7 +7,6 @@ function List({ employees, handleEdit, handleDelete }) {
         currency: 'USD',
         minimumFractionDigits: null
     });
-
     return (
         <div className='contain-table'>
             <table className='striped-table'>
